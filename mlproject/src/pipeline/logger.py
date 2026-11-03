@@ -5,7 +5,6 @@ from datetime import datetime
 # Create logs directory
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
-
 # Log file name
 LOG_FILE = datetime.now().strftime("%m_%d_%Y_%H_%M_%S.log")
 
