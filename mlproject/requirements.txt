@@ -22,4 +22,5 @@ plotly
 streamlit
 openpyxl
 joblib
+dill
 -e .
