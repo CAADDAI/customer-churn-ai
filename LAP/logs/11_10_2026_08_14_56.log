@@ -1,0 +1,9 @@
+[ 2026-11-10 08:14:56,602 ] 26 MLProject - INFO - Entered Data Ingestion Method
+[ 2026-11-10 08:14:57,301 ] 34 MLProject - INFO - Dataset loaded successfully
+[ 2026-11-10 08:14:57,301 ] 44 MLProject - INFO - Artifacts folder created
+[ 2026-11-10 08:14:57,322 ] 53 MLProject - INFO - Raw dataset saved
+[ 2026-11-10 08:14:57,327 ] 62 MLProject - INFO - Train Test Split Completed
+[ 2026-11-10 08:14:57,342 ] 71 MLProject - INFO - Training dataset saved
+[ 2026-11-10 08:14:57,347 ] 80 MLProject - INFO - Testing dataset saved
+[ 2026-11-10 08:14:57,347 ] 82 MLProject - INFO - Data Ingestion Completed Successfully
+[ 2026-11-10 08:14:57,384 ] 92 MLProject - INFO - Train and Test Data Read Successfully

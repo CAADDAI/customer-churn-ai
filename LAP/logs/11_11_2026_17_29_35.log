@@ -1,0 +1,8 @@
+[ 2026-11-11 17:29:38,325 ] 267 MLProject - INFO - Starting Loan Approval Flask Application
+[ 2026-11-11 17:29:38,347 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-11 17:29:38,351 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-11 17:29:39,163 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:39] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 17:29:39,247 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:29:41,247 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:41] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 17:29:41,271 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:29:42,970 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading

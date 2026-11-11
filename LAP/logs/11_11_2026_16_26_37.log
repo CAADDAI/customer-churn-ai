@@ -1,0 +1,16 @@
+[ 2026-11-11 16:26:39,140 ] 206 MLProject - INFO - Starting Loan Approval Flask Application
+[ 2026-11-11 16:26:39,156 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-11 16:26:39,161 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-11 16:26:41,177 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:26:41] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:26:41,190 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:26:41] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:26:45,564 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:26:45] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:26:45,583 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:26:45] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:29:12,156 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:29:12] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:29:12,174 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:29:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:29:14,114 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:29:14] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 16:29:14,187 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:29:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 16:32:08,662 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:32:08] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:32:08,681 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:32:08] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:32:11,035 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:32:11] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 16:32:11,049 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:32:11] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-11 16:35:22,190 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\local.py', reloading

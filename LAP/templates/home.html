@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Approval Prediction</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🏦 Loan Approval System
+        </div>
+
+        <div class="nav-menu">
+
+            <a href="/" class="nav-link">
+                Home
+            </a>
+
+            <a href="/predict" class="nav-link">
+                Prediction
+            </a>
+
+            <a href="/dashboard" class="nav-link">
+                Dashboard
+            </a>
+
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1>
+                Loan Approval Prediction
+            </h1>
+
+            <p>
+                Machine Learning Powered Banking Solution
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <form action="/predict" method="POST">
+
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" name="Age" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Experience</label>
+                    <input type="number" name="Experience" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Income (£00)</label>
+                    <input type="number" name="Income" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Family</label>
+                    <input type="number" name="Family" required>
+                </div>
+
+                <div class="form-group">
+                    <label>CC Average</label>
+                    <input type="number" step="0.1"
+                        name="CCAvg" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Education</label>
+
+                    <select name="Education">
+
+                        <option value="1">
+                            Undergraduate
+                        </option>
+
+                        <option value="2">
+                            Graduate
+                        </option>
+
+                        <option value="3">
+                            Professional
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Mortgage</label>
+                    <input type="number"
+                        name="Mortgage" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Securities Account</label>
+
+                    <select name="Securities_Account">
+
+                        <option value="0">
+                            No
+                        </option>
+
+                        <option value="1">
+                            Yes
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label>CD Account</label>
+
+                    <select name="CD_Account">
+
+                        <option value="0">
+                            No
+                        </option>
+
+                        <option value="1">
+                            Yes
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Online Banking</label>
+
+                    <select name="Online">
+
+                        <option value="0">
+                            No
+                        </option>
+
+                        <option value="1">
+                            Yes
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Credit Card</label>
+
+                    <select name="CreditCard">
+
+                        <option value="0">
+                            No
+                        </option>
+
+                        <option value="1">
+                            Yes
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <button class="btn" type="submit">
+                    Predict Loan Approval
+                </button>
+
+            </form>
+
+        </div>
+
+        {% if results %}
+
+        <div class="result-card">
+
+            <h2>
+                {{ results }}
+            </h2>
+
+            <div class="confidence-box">
+
+                <h3>
+                    Confidence Score:
+                    {{ confidence }}%
+                </h3>
+
+            </div>
+
+            <div class="analysis-grid">
+
+                <div class="analysis-card">
+
+                    <h3>🤖 Reasons</h3>
+
+                    <ul>
+
+                        {% for reason in reasons %}
+
+                        <li>{{ reason }}</li>
+
+                        {% endfor %}
+
+                    </ul>
+
+                </div>
+
+                <div class="analysis-card">
+
+                    <h3>🤖 Recommendations</h3>
+
+                    <ul>
+
+                        {% for recommendation in recommendations %}
+
+                        <li>{{recommendation }}</li>
+
+                        {% endfor %}
+                        {% if ai_message %}
+
+<div class="ai-assistant">
+
+    <div class="ai-header">
+        🤖 Decision Support Analysis
+    </div>
+
+    <div class="ai-content">
+        <pre>{{ ai_message }}</pre>
+    </div>
+
+</div>
+
+{% endif %}
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</body>
+</html>

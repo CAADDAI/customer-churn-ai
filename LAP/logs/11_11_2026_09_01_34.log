@@ -1,0 +1,24 @@
+[ 2026-11-11 09:01:36,881 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-11 09:01:36,887 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-11 09:02:50,422 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:02:50] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 09:02:50,606 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:02:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 09:02:51,530 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:02:51] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 09:02:51,550 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:02:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 09:02:58,939 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:02:58] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 09:02:58,957 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:02:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 09:03:02,801 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:03:02] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 09:03:02,827 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:03:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 09:04:09,311 ] 134 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-11 09:04:09,318 ] 187 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-11 09:04:09,318 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-11 09:04:09,318 ] 33 MLProject - INFO - Loading trained model
+[ 2026-11-11 09:04:09,691 ] 41 MLProject - INFO - Loading preprocessor
+[ 2026-11-11 09:04:09,699 ] 49 MLProject - INFO - Transforming input features
+[ 2026-11-11 09:04:09,781 ] 59 MLProject - INFO - Generating prediction
+[ 2026-11-11 09:04:09,782 ] 78 MLProject - INFO - Prediction generated successfully: [0.]
+[ 2026-11-11 09:04:09,783 ] 82 MLProject - INFO - Confidence Score: 99.06%
+[ 2026-11-11 09:04:09,783 ] 128 MLProject - INFO - Prediction: ❌ Loan Rejected
+[ 2026-11-11 09:04:09,783 ] 132 MLProject - INFO - Confidence Score: 99.06%
+[ 2026-11-11 09:04:09,783 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:04:09] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-11 09:04:09,799 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 09:04:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 09:13:32,205 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\src\\pipeline\\predict_pipeline.py', reloading

@@ -1,0 +1,89 @@
+[ 2026-11-10 22:15:50,888 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-10 22:15:50,893 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-10 22:16:16,582 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:16:16] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 22:16:16,686 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:16:16] "GET /static/style.css HTTP/1.1" 200 -
+[ 2026-11-10 22:16:17,804 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:16:17] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 22:16:17,824 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:16:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:16:22,261 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:16:22] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 22:16:22,281 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:16:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:16:24,181 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:16:24] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-10 22:16:24,193 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:16:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:18:56,724 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:18:56] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 22:18:56,744 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:18:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:18:57,643 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:18:57] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 22:18:57,664 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:18:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:19:06,068 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:19:06] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 22:19:06,087 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:19:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:19:06,675 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:19:06] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 22:19:06,695 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:19:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:19:07,901 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:19:07] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-10 22:19:07,913 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:19:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:19:58,952 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-10 22:19:58,963 ] 133 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-10 22:19:58,964 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-10 22:19:58,964 ] 31 MLProject - INFO - Loading trained model
+[ 2026-11-10 22:19:59,372 ] 37 MLProject - INFO - Loading preprocessor
+[ 2026-11-10 22:19:59,379 ] 43 MLProject - INFO - Transforming input features
+[ 2026-11-10 22:19:59,509 ] 49 MLProject - INFO - Generating prediction
+[ 2026-11-10 22:19:59,510 ] 55 MLProject - INFO - Prediction generated successfully: [0.]
+[ 2026-11-10 22:19:59,510 ] 166 MLProject - INFO - Prediction Result: Loan Rejected
+[ 2026-11-10 22:19:59,511 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:19:59] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-10 22:19:59,524 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:19:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:24:06,201 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-10 22:24:06,203 ] 133 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-10 22:24:06,204 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-10 22:24:06,204 ] 31 MLProject - INFO - Loading trained model
+[ 2026-11-10 22:24:06,208 ] 37 MLProject - INFO - Loading preprocessor
+[ 2026-11-10 22:24:06,208 ] 43 MLProject - INFO - Transforming input features
+[ 2026-11-10 22:24:06,215 ] 49 MLProject - INFO - Generating prediction
+[ 2026-11-10 22:24:06,216 ] 55 MLProject - INFO - Prediction generated successfully: [1.]
+[ 2026-11-10 22:24:06,216 ] 166 MLProject - INFO - Prediction Result: Loan Approved
+[ 2026-11-10 22:24:06,217 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:24:06] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-10 22:24:06,235 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:24:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:25:43,441 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-10 22:25:43,443 ] 133 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-10 22:25:43,443 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-10 22:25:43,443 ] 31 MLProject - INFO - Loading trained model
+[ 2026-11-10 22:25:43,447 ] 37 MLProject - INFO - Loading preprocessor
+[ 2026-11-10 22:25:43,449 ] 43 MLProject - INFO - Transforming input features
+[ 2026-11-10 22:25:43,456 ] 49 MLProject - INFO - Generating prediction
+[ 2026-11-10 22:25:43,457 ] 55 MLProject - INFO - Prediction generated successfully: [1.]
+[ 2026-11-10 22:25:43,457 ] 166 MLProject - INFO - Prediction Result: Loan Approved
+[ 2026-11-10 22:25:43,462 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:25:43] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-10 22:25:43,476 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:25:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:26:53,306 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-10 22:26:53,307 ] 133 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-10 22:26:53,307 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-10 22:26:53,307 ] 31 MLProject - INFO - Loading trained model
+[ 2026-11-10 22:26:53,311 ] 37 MLProject - INFO - Loading preprocessor
+[ 2026-11-10 22:26:53,312 ] 43 MLProject - INFO - Transforming input features
+[ 2026-11-10 22:26:53,319 ] 49 MLProject - INFO - Generating prediction
+[ 2026-11-10 22:26:53,320 ] 55 MLProject - INFO - Prediction generated successfully: [1.]
+[ 2026-11-10 22:26:53,320 ] 166 MLProject - INFO - Prediction Result: Loan Approved
+[ 2026-11-10 22:26:53,325 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:26:53] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-10 22:26:53,340 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:26:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:43:33,754 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-10 22:43:33,756 ] 133 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-10 22:43:33,757 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-10 22:43:33,757 ] 31 MLProject - INFO - Loading trained model
+[ 2026-11-10 22:43:33,762 ] 37 MLProject - INFO - Loading preprocessor
+[ 2026-11-10 22:43:33,762 ] 43 MLProject - INFO - Transforming input features
+[ 2026-11-10 22:43:33,769 ] 49 MLProject - INFO - Generating prediction
+[ 2026-11-10 22:43:33,770 ] 55 MLProject - INFO - Prediction generated successfully: [1.]
+[ 2026-11-10 22:43:33,770 ] 166 MLProject - INFO - Prediction Result: Loan Approved
+[ 2026-11-10 22:43:33,771 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:43:33] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-10 22:43:33,785 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:43:33] "GET /static/style.css HTTP/1.1" 200 -
+[ 2026-11-10 22:44:05,481 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-10 22:44:05,483 ] 133 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-10 22:44:05,483 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-10 22:44:05,483 ] 31 MLProject - INFO - Loading trained model
+[ 2026-11-10 22:44:05,489 ] 37 MLProject - INFO - Loading preprocessor
+[ 2026-11-10 22:44:05,489 ] 43 MLProject - INFO - Transforming input features
+[ 2026-11-10 22:44:05,499 ] 49 MLProject - INFO - Generating prediction
+[ 2026-11-10 22:44:05,500 ] 55 MLProject - INFO - Prediction generated successfully: [1.]
+[ 2026-11-10 22:44:05,500 ] 166 MLProject - INFO - Prediction Result: Loan Approved
+[ 2026-11-10 22:44:05,501 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:44:05] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-10 22:44:05,514 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:44:05] "GET /static/style.css HTTP/1.1" 200 -
+[ 2026-11-10 22:44:23,156 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:44:23] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 22:44:23,179 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 22:44:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 22:49:42,637 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\src\\pipeline\\predict_pipeline.py', reloading

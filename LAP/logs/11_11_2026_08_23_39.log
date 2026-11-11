@@ -1,0 +1,31 @@
+[ 2026-11-11 08:23:43,258 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-11 08:23:43,266 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-11 08:26:17,001 ] 134 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-11 08:26:17,013 ] 187 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-11 08:26:17,014 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-11 08:26:17,014 ] 33 MLProject - INFO - Loading trained model
+[ 2026-11-11 08:26:17,440 ] 41 MLProject - INFO - Loading preprocessor
+[ 2026-11-11 08:26:17,448 ] 49 MLProject - INFO - Transforming input features
+[ 2026-11-11 08:26:17,584 ] 59 MLProject - INFO - Generating prediction
+[ 2026-11-11 08:26:17,586 ] 78 MLProject - INFO - Prediction generated successfully: [1.]
+[ 2026-11-11 08:26:17,586 ] 82 MLProject - INFO - Confidence Score: 98.55%
+[ 2026-11-11 08:26:17,586 ] 221 MLProject - INFO - Prediction Result: Loan Approved
+[ 2026-11-11 08:26:17,586 ] 225 MLProject - INFO - Confidence Score: 98.55%
+[ 2026-11-11 08:26:17,600 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 08:26:17] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-11 08:26:17,722 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 08:26:17] "GET /static/style.css HTTP/1.1" 200 -
+[ 2026-11-11 08:28:03,798 ] 134 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-11 08:28:03,799 ] 187 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-11 08:28:03,799 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-11 08:28:03,799 ] 33 MLProject - INFO - Loading trained model
+[ 2026-11-11 08:28:03,806 ] 41 MLProject - INFO - Loading preprocessor
+[ 2026-11-11 08:28:03,807 ] 49 MLProject - INFO - Transforming input features
+[ 2026-11-11 08:28:03,814 ] 59 MLProject - INFO - Generating prediction
+[ 2026-11-11 08:28:03,815 ] 78 MLProject - INFO - Prediction generated successfully: [1.]
+[ 2026-11-11 08:28:03,815 ] 82 MLProject - INFO - Confidence Score: 98.55%
+[ 2026-11-11 08:28:03,816 ] 221 MLProject - INFO - Prediction Result: Loan Approved
+[ 2026-11-11 08:28:03,816 ] 225 MLProject - INFO - Confidence Score: 98.55%
+[ 2026-11-11 08:28:03,825 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 08:28:03] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-11 08:28:03,843 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 08:28:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 08:28:16,359 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 08:28:16] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 08:28:16,383 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 08:28:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 08:42:29,571 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\src\\pipeline\\predict_pipeline.py', reloading
