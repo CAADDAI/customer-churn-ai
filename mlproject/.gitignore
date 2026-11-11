@@ -30,6 +30,11 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .ipynb_checkpoints/
+notebook/
+data/
+setup.py/
+notebook_requirement/
+artifacts/
 
 # PyInstaller
 #   Usually these files are written by a python script from a template
