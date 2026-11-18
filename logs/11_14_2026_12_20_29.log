@@ -1,0 +1,20 @@
+[ 2026-11-14 12:20:29,786 ] 25 Customer_Churn_Prediction - INFO - Entered Data Ingestion Method
+[ 2026-11-14 12:20:29,801 ] 33 Customer_Churn_Prediction - INFO - Dataset loaded successfully
+[ 2026-11-14 12:20:29,802 ] 43 Customer_Churn_Prediction - INFO - Artifacts folder created
+[ 2026-11-14 12:20:29,859 ] 52 Customer_Churn_Prediction - INFO - Raw dataset saved
+[ 2026-11-14 12:20:29,865 ] 61 Customer_Churn_Prediction - INFO - Train Test Split Completed
+[ 2026-11-14 12:20:29,908 ] 70 Customer_Churn_Prediction - INFO - Training dataset saved
+[ 2026-11-14 12:20:29,925 ] 79 Customer_Churn_Prediction - INFO - Testing dataset saved
+[ 2026-11-14 12:20:29,925 ] 81 Customer_Churn_Prediction - INFO - Data Ingestion Completed Successfully
+[ 2026-11-14 12:20:29,958 ] 121 Customer_Churn_Prediction - INFO - Train and Test Data Loaded Successfully
+[ 2026-11-14 12:20:29,961 ] 152 Customer_Churn_Prediction - INFO - Applying Preprocessing Object
+[ 2026-11-14 12:20:29,961 ] 82 Customer_Churn_Prediction - INFO - Numerical and Categorical Pipelines Created
+[ 2026-11-14 12:20:29,961 ] 101 Customer_Churn_Prediction - INFO - Preprocessor Object Created Successfully
+[ 2026-11-14 12:20:30,076 ] 22 Customer_Churn_Prediction - INFO - Object saved successfully at artifacts\preprocessor.pkl
+[ 2026-11-14 12:20:30,076 ] 187 Customer_Churn_Prediction - INFO - Preprocessor Saved Successfully
+[ 2026-11-14 12:20:30,077 ] 35 Customer_Churn_Prediction - INFO - Starting Hyperparameter Tuning
+[ 2026-11-14 12:20:30,077 ] 55 Customer_Churn_Prediction - INFO - Grid Search Started
+[ 2026-11-14 12:21:27,929 ] 85 Customer_Churn_Prediction - INFO - Best Parameters : {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}
+[ 2026-11-14 12:21:27,929 ] 89 Customer_Churn_Prediction - INFO - Best CV Score : 0.8639
+[ 2026-11-14 12:21:27,947 ] 22 Customer_Churn_Prediction - INFO - Object saved successfully at artifacts\tuned_model.pkl
+[ 2026-11-14 12:21:27,947 ] 98 Customer_Churn_Prediction - INFO - Tuned Model Saved Successfully

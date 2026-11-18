@@ -1,0 +1,57 @@
+[ 2026-11-17 15:22:26,004 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-17 15:22:26,011 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-17 15:22:26,024 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-17 15:22:26,030 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-17 15:22:26,034 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-17 15:22:26,040 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-17 15:22:28,624 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:22:28] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:22:28,655 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:22:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:23:04,728 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:23:04] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:23:04,756 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:23:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:23:10,389 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:23:10] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:23:10,419 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:23:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:24:00,280 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:24:00] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:24:00,312 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:24:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:24:01,859 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:24:01] "GET / HTTP/1.1" 200 -
+[ 2026-11-17 15:24:01,874 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:24:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:27:47,068 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:27:47] "GET / HTTP/1.1" 200 -
+[ 2026-11-17 15:27:47,087 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:27:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:27:48,953 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:27:48] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:27:48,983 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:27:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:30:42,497 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:30:42] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:30:42,523 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:30:42] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 15:32:00,453 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:32:00] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:32:00,483 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:32:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:32:01,904 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:32:01] "GET / HTTP/1.1" 200 -
+[ 2026-11-17 15:32:01,930 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:32:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:32:03,501 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:32:03] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-17 15:32:03,516 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:32:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:32:46,576 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-17 15:32:46,576 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-17 15:32:46,577 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-17 15:32:48,042 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-17 15:32:48,055 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-17 15:32:48,119 ] 74 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-17 15:32:48,120 ] 78 Customer_Churn_Prediction - INFO - Confidence: 67.39%
+[ 2026-11-17 15:32:48,232 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:32:48] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-17 15:32:48,248 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:32:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:33:08,677 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:33:08] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:33:08,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:33:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 15:34:16,931 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:34:16] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:34:16,960 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:34:16] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 15:34:51,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:34:51] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:34:51,950 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:34:51] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 15:38:10,160 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:38:10] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:38:10,191 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:38:10] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 15:38:39,898 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:38:39] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:38:39,929 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:38:39] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 15:39:24,251 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:39:24] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:39:24,280 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:39:24] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 15:40:39,363 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:40:39] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:40:39,394 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:40:39] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 15:41:32,776 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:41:32] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:41:32,806 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:41:32] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 15:43:29,461 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:43:29] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 15:43:29,488 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 15:43:29] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 16:12:33,958 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-17 16:12:33,958 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading

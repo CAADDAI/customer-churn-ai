@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Customer Churn Analytics Dashboard
+    </title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            📊 Customer Churn AI
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="/">Home</a>
+            </li>
+
+            <li>
+                <a href="/predict-page">Prediction</a>
+            </li>
+
+            <li>
+                <a href="/dashboard">Dashboard</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+        <!-- HEADER -->
+
+        <div class="header">
+
+            <h1>
+                Customer Churn Analytics Dashboard
+            </h1>
+
+            <p>
+                Real-Time Customer Retention Monitoring
+            </p>
+
+        </div>
+
+        <!-- KPI CARDS -->
+
+        <div class="metrics-grid">
+
+            <div class="metric-card">
+
+                <h3>Total Predictions</h3>
+
+                <h1>{{ total_predictions }}</h1>
+
+            </div>
+
+            <div class="metric-card">
+
+                <h3>High Risk Customers</h3>
+
+                <h1>{{ high_risk }}</h1>
+
+            </div>
+
+            <div class="metric-card">
+
+                <h3>Low Risk Customers</h3>
+
+                <h1>{{ low_risk }}</h1>
+
+            </div>
+
+            <div class="metric-card">
+
+                <h3>Average Confidence</h3>
+
+                <h1>{{ average_confidence }}%</h1>
+
+            </div>
+
+        </div>
+
+        <!-- CHARTS -->
+
+        <div class="chart-grid">
+
+            <div class="card">
+
+                <h2>
+                    📊 Customer Risk Distribution
+                </h2>
+
+                {{ pie_chart_html | safe }}
+
+            </div>
+
+            <div class="card">
+
+                <h2>
+                    📈 Confidence Trend
+                </h2>
+
+                {{ trend_chart_html | safe }}
+
+            </div>
+
+        </div>
+
+        <!-- RECENT PREDICTIONS -->
+
+        <div class="card">
+
+    <h2>
+        📋 Recent Predictions
+    </h2>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Date</th>
+                <th>Country</th>
+                <th>Status</th>
+                <th>Confidence</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            {% for item in recent_predictions[:5] %}
+
+            <tr>
+
+                <td>{{ item["Timestamp"] }}</td>
+
+                <td>{{ item["Geography"] }}</td>
+
+                <td>
+
+                    {% if item["Status"] == "High Risk" %}
+
+                    <span class="high-risk">
+                        {{ item["Status"] }}
+                    </span>
+
+                    {% else %}
+
+                    <span class="low-risk">
+                        {{ item["Status"] }}
+                    </span>
+
+                    {% endif %}
+
+                </td>
+
+                <td>{{ item["Confidence"] }}%</td>
+
+            </tr>
+
+            {% endfor %}
+
+        </tbody>
+
+    </table>
+
+    {% if recent_predictions|length > 5 %}
+
+    <details style="margin-top:20px;">
+
+        <summary>
+            View Older Predictions
+        </summary>
+
+        <br>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Date</th>
+                    <th>Country</th>
+                    <th>Status</th>
+                    <th>Confidence</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                {% for item in recent_predictions[5:] %}
+
+                <tr>
+
+                    <td>{{ item["Timestamp"] }}</td>
+
+                    <td>{{ item["Geography"] }}</td>
+
+                    <td>
+
+                        {% if item["Status"] == "High Risk" %}
+
+                        <span class="high-risk">
+                            {{ item["Status"] }}
+                        </span>
+
+                        {% else %}
+
+                        <span class="low-risk">
+                            {{ item["Status"] }}
+                        </span>
+
+                        {% endif %}
+
+                    </td>
+
+                    <td>{{ item["Confidence"] }}%</td>
+
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </details>
+
+    {% endif %}
+
+</div>
+
+        <!-- ACTION BUTTONS -->
+
+        <div class="button-group">
+
+            <a href="/predict-page"
+               class="btn btn-primary">
+
+                New Prediction
+
+            </a>
+
+            <a href="/"
+               class="btn btn-secondary">
+
+                Landing Page
+
+            </a>
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <div class="footer">
+
+            <h3>
+
+                Developed By:
+                Collins Aboagye Addai
+
+            </h3>
+
+            <p>
+
+                Customer Churn Analytics Platform
+
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

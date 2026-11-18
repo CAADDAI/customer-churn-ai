@@ -1,0 +1,29 @@
+[ 2026-11-14 12:12:22,594 ] 25 Customer_Churn_Prediction - INFO - Entered Data Ingestion Method
+[ 2026-11-14 12:12:22,610 ] 33 Customer_Churn_Prediction - INFO - Dataset loaded successfully
+[ 2026-11-14 12:12:22,610 ] 43 Customer_Churn_Prediction - INFO - Artifacts folder created
+[ 2026-11-14 12:12:22,666 ] 52 Customer_Churn_Prediction - INFO - Raw dataset saved
+[ 2026-11-14 12:12:22,672 ] 61 Customer_Churn_Prediction - INFO - Train Test Split Completed
+[ 2026-11-14 12:12:22,715 ] 70 Customer_Churn_Prediction - INFO - Training dataset saved
+[ 2026-11-14 12:12:22,727 ] 79 Customer_Churn_Prediction - INFO - Testing dataset saved
+[ 2026-11-14 12:12:22,734 ] 81 Customer_Churn_Prediction - INFO - Data Ingestion Completed Successfully
+[ 2026-11-14 12:12:22,769 ] 121 Customer_Churn_Prediction - INFO - Train and Test Data Loaded Successfully
+[ 2026-11-14 12:12:22,771 ] 152 Customer_Churn_Prediction - INFO - Applying Preprocessing Object
+[ 2026-11-14 12:12:22,771 ] 82 Customer_Churn_Prediction - INFO - Numerical and Categorical Pipelines Created
+[ 2026-11-14 12:12:22,772 ] 101 Customer_Churn_Prediction - INFO - Preprocessor Object Created Successfully
+[ 2026-11-14 12:12:22,890 ] 22 Customer_Churn_Prediction - INFO - Object saved successfully at artifacts\preprocessor.pkl
+[ 2026-11-14 12:12:22,890 ] 187 Customer_Churn_Prediction - INFO - Preprocessor Saved Successfully
+[ 2026-11-14 12:12:22,890 ] 46 Customer_Churn_Prediction - INFO - Splitting train and test arrays
+[ 2026-11-14 12:12:22,890 ] 92 Customer_Churn_Prediction - INFO - Training Logistic Regression
+[ 2026-11-14 12:12:22,920 ] 139 Customer_Churn_Prediction - INFO - Logistic Regression | Accuracy=0.7190, Precision=0.3841, Recall=0.7125, F1=0.4991, ROC_AUC=0.7165
+[ 2026-11-14 12:12:22,920 ] 92 Customer_Churn_Prediction - INFO - Training Decision Tree
+[ 2026-11-14 12:12:22,981 ] 139 Customer_Churn_Prediction - INFO - Decision Tree | Accuracy=0.7980, Precision=0.4859, Recall=0.4835, F1=0.4847, ROC_AUC=0.6792
+[ 2026-11-14 12:12:22,981 ] 92 Customer_Churn_Prediction - INFO - Training Random Forest
+[ 2026-11-14 12:12:24,228 ] 139 Customer_Churn_Prediction - INFO - Random Forest | Accuracy=0.8510, Precision=0.6227, Recall=0.6132, F1=0.6179, ROC_AUC=0.7612
+[ 2026-11-14 12:12:24,229 ] 92 Customer_Churn_Prediction - INFO - Training KNeighborsClassifier
+[ 2026-11-14 12:12:24,401 ] 139 Customer_Churn_Prediction - INFO - KNeighborsClassifier | Accuracy=0.8450, Precision=0.6615, Recall=0.4326, F1=0.5231, ROC_AUC=0.6892
+[ 2026-11-14 12:12:24,401 ] 92 Customer_Churn_Prediction - INFO - Training Gaussian Naive Bayes
+[ 2026-11-14 12:12:24,421 ] 139 Customer_Churn_Prediction - INFO - Gaussian Naive Bayes | Accuracy=0.8335, Precision=0.6351, Recall=0.3588, F1=0.4585, ROC_AUC=0.6542
+[ 2026-11-14 12:12:24,421 ] 154 Customer_Churn_Prediction - INFO - Best Model: Random Forest
+[ 2026-11-14 12:12:24,421 ] 158 Customer_Churn_Prediction - INFO - Best F1 Score: 0.6179
+[ 2026-11-14 12:12:24,468 ] 22 Customer_Churn_Prediction - INFO - Object saved successfully at artifacts\model.pkl
+[ 2026-11-14 12:12:24,468 ] 167 Customer_Churn_Prediction - INFO - Best model saved successfully

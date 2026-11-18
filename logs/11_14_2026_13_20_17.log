@@ -1,0 +1,17 @@
+[ 2026-11-14 13:20:19,989 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 13:20:19,990 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 13:20:19,994 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 13:20:19,994 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 13:21:47,490 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:21:47] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:21:47,622 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:21:47] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-14 13:22:24,449 ] 178 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 13:22:24,449 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 13:22:24,449 ] 33 Customer_Churn_Prediction - INFO - Loading Trained Model
+[ 2026-11-14 13:22:24,884 ] 41 Customer_Churn_Prediction - INFO - Loading Preprocessor
+[ 2026-11-14 13:22:24,891 ] 49 Customer_Churn_Prediction - INFO - Transforming User Input
+[ 2026-11-14 13:22:24,968 ] 59 Customer_Churn_Prediction - INFO - Generating Prediction
+[ 2026-11-14 13:22:25,029 ] 78 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-14 13:22:25,029 ] 82 Customer_Churn_Prediction - INFO - Confidence: 78.79%
+[ 2026-11-14 13:22:25,040 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:22:25] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 13:24:15,406 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-14 13:24:15,406 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading

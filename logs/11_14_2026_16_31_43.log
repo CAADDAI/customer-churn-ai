@@ -1,0 +1,17 @@
+[ 2026-11-14 16:31:46,241 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:31:46,245 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:31:46,248 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:31:46,250 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:31:46,251 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:31:46,254 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:31:46,255 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:31:46,257 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:31:46,258 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:31:46,269 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:31:46,299 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:31:46,304 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:32:52,233 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\predict_pipeline.py', reloading
+[ 2026-11-14 16:32:52,233 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\predict_pipeline.py', reloading
+[ 2026-11-14 16:32:52,233 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\predict_pipeline.py', reloading
+[ 2026-11-14 16:32:52,234 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\cUSTOMER_cHURN_ai\\src\\pipeline\\predict_pipeline.py', reloading
+[ 2026-11-14 16:32:52,234 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\predict_pipeline.py', reloading

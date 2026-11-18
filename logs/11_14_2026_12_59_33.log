@@ -1,0 +1,8 @@
+[ 2026-11-14 12:59:35,397 ] 178 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 12:59:35,397 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 12:59:35,398 ] 33 Customer_Churn_Prediction - INFO - Loading Trained Model
+[ 2026-11-14 12:59:35,756 ] 41 Customer_Churn_Prediction - INFO - Loading Preprocessor
+[ 2026-11-14 12:59:35,765 ] 49 Customer_Churn_Prediction - INFO - Transforming User Input
+[ 2026-11-14 12:59:35,849 ] 59 Customer_Churn_Prediction - INFO - Generating Prediction
+[ 2026-11-14 12:59:35,901 ] 78 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-14 12:59:35,909 ] 82 Customer_Churn_Prediction - INFO - Confidence: 76.34%

@@ -1,0 +1,39 @@
+[ 2026-11-14 17:21:50,790 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:21:50,794 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:21:50,796 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:21:50,797 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:21:50,797 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:21:50,800 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:21:50,802 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:21:50,802 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:21:50,806 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:21:50,813 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:21:50,816 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:21:50,816 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:21:50,819 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:21:50,822 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:21:50,855 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:21:50,860 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:22:52,951 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:22:52] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 17:22:53,062 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:22:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:23:21,347 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:23:21] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-14 17:23:21,402 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:23:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:23:37,499 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:23:37] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-14 17:23:37,553 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:23:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:26:18,976 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 17:26:18,976 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 17:26:18,976 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-14 17:26:19,404 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-14 17:26:19,501 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-14 17:26:19,600 ] 74 Customer_Churn_Prediction - INFO - Prediction: 1.0
+[ 2026-11-14 17:26:19,600 ] 78 Customer_Churn_Prediction - INFO - Confidence: 61.26%
+[ 2026-11-14 17:26:19,675 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:26:19] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 17:26:19,739 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:26:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:29:57,640 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:29:57,640 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:29:57,640 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:29:57,640 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:29:57,640 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:29:57,640 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:29:57,640 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\cUSTOMER_cHURN_ai\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:29:57,640 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading

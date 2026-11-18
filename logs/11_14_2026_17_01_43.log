@@ -1,0 +1,46 @@
+[ 2026-11-14 17:01:45,988 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:01:45,995 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:01:46,015 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:01:46,021 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:01:46,030 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:01:46,033 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:01:46,035 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:01:46,039 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:01:46,049 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:01:46,055 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:01:46,056 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:01:46,060 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:01:46,062 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:01:46,065 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:01:46,087 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 17:01:46,091 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 17:02:57,354 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 17:02:57,355 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 17:02:57,355 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-14 17:02:57,813 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-14 17:02:57,922 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-14 17:02:58,024 ] 74 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-14 17:02:58,024 ] 78 Customer_Churn_Prediction - INFO - Confidence: 58.95%
+[ 2026-11-14 17:02:58,599 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:02:58] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 17:02:58,655 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:02:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:03:10,724 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:03:10] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 17:03:10,739 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:03:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:03:35,415 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:03:35] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-14 17:03:35,467 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:03:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:03:58,157 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 17:03:58,157 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 17:03:58,157 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-14 17:03:58,283 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-14 17:03:58,292 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-14 17:03:58,346 ] 74 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-14 17:03:58,346 ] 78 Customer_Churn_Prediction - INFO - Confidence: 56.83%
+[ 2026-11-14 17:03:58,418 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:03:58] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 17:03:58,477 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:03:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:04:27,293 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:04:27] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-14 17:04:27,353 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 17:04:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 17:19:23,635 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:19:23,635 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:19:23,635 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:19:23,635 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:19:23,635 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_churn_AI\\src\\pipeline\\ai_recommendation.py', reloading
+[ 2026-11-14 17:19:23,635 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\cUSTOMER_cHURN_ai\\src\\pipeline\\ai_recommendation.py', reloading

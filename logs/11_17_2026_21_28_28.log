@@ -1,0 +1,3 @@
+[ 2026-11-17 21:28:30,482 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-17 21:28:30,489 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 01:43:47,617 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading

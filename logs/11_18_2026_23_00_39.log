@@ -1,0 +1,5 @@
+[ 2026-11-18 23:00:49,348 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 23:00:49,352 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 23:02:39,076 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 23:02:39] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-18 23:02:39,164 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 23:02:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 23:10:01,914 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\src\\pipeline\\predict_pipeline.py', reloading

@@ -1,0 +1,14 @@
+[ 2026-11-14 11:44:12,341 ] 25 Customer_Churn_Prediction - INFO - Entered Data Ingestion Method
+[ 2026-11-14 11:44:12,356 ] 33 Customer_Churn_Prediction - INFO - Dataset loaded successfully
+[ 2026-11-14 11:44:12,356 ] 43 Customer_Churn_Prediction - INFO - Artifacts folder created
+[ 2026-11-14 11:44:12,412 ] 52 Customer_Churn_Prediction - INFO - Raw dataset saved
+[ 2026-11-14 11:44:12,418 ] 61 Customer_Churn_Prediction - INFO - Train Test Split Completed
+[ 2026-11-14 11:44:12,460 ] 70 Customer_Churn_Prediction - INFO - Training dataset saved
+[ 2026-11-14 11:44:12,472 ] 79 Customer_Churn_Prediction - INFO - Testing dataset saved
+[ 2026-11-14 11:44:12,479 ] 81 Customer_Churn_Prediction - INFO - Data Ingestion Completed Successfully
+[ 2026-11-14 11:44:12,514 ] 121 Customer_Churn_Prediction - INFO - Train and Test Data Loaded Successfully
+[ 2026-11-14 11:44:12,519 ] 152 Customer_Churn_Prediction - INFO - Applying Preprocessing Object
+[ 2026-11-14 11:44:12,519 ] 82 Customer_Churn_Prediction - INFO - Numerical and Categorical Pipelines Created
+[ 2026-11-14 11:44:12,519 ] 101 Customer_Churn_Prediction - INFO - Preprocessor Object Created Successfully
+[ 2026-11-14 11:44:13,079 ] 22 Customer_Churn_Prediction - INFO - Object saved successfully at artifacts\preprocessor.pkl
+[ 2026-11-14 11:44:13,079 ] 187 Customer_Churn_Prediction - INFO - Preprocessor Saved Successfully

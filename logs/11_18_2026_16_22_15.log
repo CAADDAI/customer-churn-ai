@@ -1,0 +1,5 @@
+[ 2026-11-18 16:22:18,262 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 16:22:18,267 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 16:22:21,854 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 16:22:21] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-18 16:22:21,879 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 16:22:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 22:00:18,798 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading

@@ -1,0 +1,43 @@
+[ 2026-11-16 22:53:17,458 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-16 22:53:17,464 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-16 22:53:17,468 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-16 22:53:17,472 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-16 22:53:17,474 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-16 22:53:17,475 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-16 22:53:17,476 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-16 22:53:17,478 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-16 22:53:17,481 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-16 22:53:17,481 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-16 22:53:17,482 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-16 22:53:17,487 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-16 22:54:59,599 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-16 22:54:59,600 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-16 22:54:59,600 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-16 22:55:00,260 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-16 22:55:00,434 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-16 22:55:00,498 ] 74 Customer_Churn_Prediction - INFO - Prediction: 1.0
+[ 2026-11-16 22:55:00,498 ] 78 Customer_Churn_Prediction - INFO - Confidence: 75.95%
+[ 2026-11-16 22:55:01,149 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:55:01] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-16 22:55:01,165 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:55:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-16 22:55:38,958 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:55:38] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-16 22:55:38,976 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:55:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-16 22:55:53,554 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:55:53] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-16 22:55:53,568 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:55:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-16 22:56:32,118 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-16 22:56:32,119 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-16 22:56:32,119 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-16 22:56:32,258 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-16 22:56:32,268 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-16 22:56:32,356 ] 74 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-16 22:56:32,356 ] 78 Customer_Churn_Prediction - INFO - Confidence: 90.39%
+[ 2026-11-16 22:56:32,459 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:56:32] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-16 22:56:32,477 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:56:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-16 22:56:48,551 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:56:48] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-16 22:56:48,569 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:56:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-16 22:56:53,335 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:56:53] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-16 22:56:53,347 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Nov/2026 22:56:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-16 23:04:06,703 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\packaging\\__init__.py', reloading
+[ 2026-11-16 23:04:06,703 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\packaging\\__init__.py', reloading
+[ 2026-11-16 23:04:06,704 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\packaging\\__init__.py', reloading
+[ 2026-11-16 23:04:06,704 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\packaging\\__init__.py', reloading
+[ 2026-11-16 23:04:06,704 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\packaging\\__init__.py', reloading

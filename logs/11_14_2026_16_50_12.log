@@ -1,0 +1,37 @@
+[ 2026-11-14 16:50:14,260 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:50:14,264 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:51:02,236 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 16:51:02,237 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 16:51:02,237 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-14 16:51:02,730 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-14 16:51:02,808 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-14 16:51:02,889 ] 74 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-14 16:51:02,890 ] 78 Customer_Churn_Prediction - INFO - Confidence: 59.93%
+[ 2026-11-14 16:51:02,900 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:02] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 16:51:09,821 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:09] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 16:51:09,980 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:51:16,028 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:16] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-14 16:51:16,079 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:51:18,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:18] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 16:51:18,778 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:51:33,952 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:33] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-14 16:51:34,011 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:51:37,129 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:37] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 16:51:37,182 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:51:51,119 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:51] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-14 16:51:51,174 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:51:56,713 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:56] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 16:51:56,765 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:51:58,660 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:58] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-14 16:51:58,721 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:51:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:52:00,561 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:52:00] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-14 16:52:00,627 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:52:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:52:31,601 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 16:52:31,601 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 16:52:31,602 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-14 16:52:31,700 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-14 16:52:31,710 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-14 16:52:31,766 ] 74 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-14 16:52:31,766 ] 78 Customer_Churn_Prediction - INFO - Confidence: 58.95%
+[ 2026-11-14 16:52:31,777 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:52:31] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 17:01:40,532 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading

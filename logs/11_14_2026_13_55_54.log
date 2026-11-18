@@ -1,0 +1,27 @@
+[ 2026-11-14 13:55:56,869 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 13:55:56,873 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 14:00:54,514 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:00:54] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 14:00:54,641 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:00:54] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-14 14:00:59,777 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:00:59] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 14:00:59,831 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:00:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 14:01:01,619 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:01:01] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-14 14:01:01,669 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:01:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 14:01:04,713 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:01:04] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 14:01:04,779 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:01:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 14:01:55,078 ] 178 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 14:01:55,079 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 14:01:55,079 ] 33 Customer_Churn_Prediction - INFO - Loading Trained Model
+[ 2026-11-14 14:01:55,532 ] 41 Customer_Churn_Prediction - INFO - Loading Preprocessor
+[ 2026-11-14 14:01:55,541 ] 49 Customer_Churn_Prediction - INFO - Transforming User Input
+[ 2026-11-14 14:01:55,652 ] 59 Customer_Churn_Prediction - INFO - Generating Prediction
+[ 2026-11-14 14:01:55,708 ] 78 Customer_Churn_Prediction - INFO - Prediction: 1.0
+[ 2026-11-14 14:01:55,708 ] 82 Customer_Churn_Prediction - INFO - Confidence: 72.34%
+[ 2026-11-14 14:01:55,724 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:01:55] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 14:01:55,788 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:01:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 14:02:04,704 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:02:04] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-14 14:02:04,764 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:02:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 14:02:24,768 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:02:24] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-14 14:02:24,821 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:02:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 14:02:25,912 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:02:25] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 14:02:25,973 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 14:02:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 14:08:18,323 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading

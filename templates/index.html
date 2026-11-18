@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Prediction Results
+    </title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static',
+          filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            📊 Customer Churn AI
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="/">
+                    Landing Page
+                </a>
+            </li>
+
+            <li>
+                <a href="/predict-page">
+                    Prediction
+                </a>
+            </li>
+
+            <li>
+                <a href="/dashboard">
+                    Dashboard
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+        <!-- Header -->
+
+        <div class="header">
+
+            <h1>
+                Customer Assessment Report
+            </h1>
+
+            <p>
+                Machine Learning Prediction Results
+            </p>
+
+        </div>
+
+        <!-- Prediction Result -->
+
+        <div class="result-card">
+
+            <h2>
+                {{ prediction }}
+            </h2>
+
+            <br>
+
+            <h3>
+                Risk Classification
+            </h3>
+
+            <p>
+                {{ status }}
+            </p>
+
+            <br>
+
+            <h3>
+                Confidence Score
+            </h3>
+
+            <p>
+                {{ confidence }}%
+            </p>
+
+        </div>
+
+        <!-- Confidence Meter -->
+
+        <div class="card">
+
+            <h2>
+                Prediction Confidence
+            </h2>
+
+            <br>
+
+            <div style="
+                background:#ddd;
+                border-radius:20px;
+                overflow:hidden;
+                height:35px;">
+
+                <div style="
+                    width:{{ confidence }}%;
+                    background:#1e3c72;
+                    color:white;
+                    height:100%;
+                    text-align:center;
+                    line-height:35px;
+                    font-weight:bold;">
+
+                    {{ confidence }}%
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <!-- Business Summary -->
+
+        <div class="card">
+
+            <h2>
+                Customer Risk Assessment
+            </h2>
+
+            <br>
+
+            {% if status == "High Risk" %}
+
+            <p>
+                This customer shows behavioural patterns
+                consistent with customers who are likely
+                to leave the bank in the future.
+            </p>
+
+            {% else %}
+
+            <p>
+                This customer displays characteristics
+                commonly associated with customer retention
+                and loyalty.
+            </p>
+
+            {% endif %}
+
+        </div>
+
+        <br>
+
+        <!-- AI Recommendation Section -->
+
+        <div class="card">
+
+            <h2>
+                🤖 AI Recommendations
+            </h2>
+
+            <br>
+
+            <ul>
+
+                {% for recommendation in recommendations %}
+
+                <li>
+                    {{ recommendation }}
+                </li>
+
+                {% endfor %}
+
+            </ul>
+
+        </div>
+
+        <br>
+
+        <!-- Action Buttons -->
+
+        <div class="button-group">
+
+            <a href="/predict-page"
+               class="btn btn-primary">
+
+                Predict Another Customer
+
+            </a>
+
+            <a href="/dashboard"
+               class="btn btn-secondary">
+
+                Open Dashboard
+
+            </a>
+
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+
+            <br><br>
+
+            <h3>
+                Customer Churn Analytics Platform
+            </h3>
+
+            <p>
+                Powered by Random Forest (Tuned)
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+  <div class="footer">
+
+            <h3>
+
+                Developed By:
+                Collins Aboagye Addai
+
+            </h3>
+
+            <p>
+
+                Customer Churn Analytics Platform
+
+            </p>
+
+        </div>
+
+</html>

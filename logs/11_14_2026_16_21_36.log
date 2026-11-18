@@ -1,0 +1,24 @@
+[ 2026-11-14 16:21:39,736 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:21:39,737 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:21:39,738 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:21:39,742 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:21:39,744 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:21:39,744 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:21:39,747 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:21:39,748 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:21:39,753 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:21:39,767 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 16:21:39,773 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 16:22:37,266 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:22:37] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-14 16:22:37,408 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:22:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:22:39,516 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:22:39] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 16:22:39,572 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:22:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:22:40,767 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:22:40] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 16:22:40,858 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:22:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:22:43,290 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:22:43] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-14 16:22:43,341 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 16:22:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 16:30:50,306 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-14 16:30:50,306 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\cUSTOMER_cHURN_ai\\app.py', reloading
+[ 2026-11-14 16:30:50,306 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-14 16:30:50,306 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-14 16:30:50,306 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading

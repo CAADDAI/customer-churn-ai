@@ -1,0 +1,21 @@
+[ 2026-11-17 21:08:09,329 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-17 21:08:09,334 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-17 21:08:45,006 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:08:45] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 21:08:45,050 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:08:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 21:08:46,563 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:08:46] "GET / HTTP/1.1" 200 -
+[ 2026-11-17 21:08:46,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:08:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 21:09:10,426 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:09:10] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-17 21:09:10,440 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:09:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 21:09:19,148 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:09:19] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 21:09:19,172 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:09:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 21:09:31,932 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:09:31] "GET / HTTP/1.1" 200 -
+[ 2026-11-17 21:09:31,948 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:09:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 21:22:12,532 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:22:12] "GET / HTTP/1.1" 200 -
+[ 2026-11-17 21:22:12,552 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:22:12] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 21:22:20,684 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:22:20] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 21:22:20,709 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:22:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 21:25:55,848 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:25:55] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 21:25:55,874 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:25:55] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-11-17 21:26:15,670 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:26:15] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-17 21:26:15,696 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Nov/2026 21:26:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-17 21:28:26,063 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading

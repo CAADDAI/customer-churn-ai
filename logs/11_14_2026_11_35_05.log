@@ -1,0 +1,8 @@
+[ 2026-11-14 11:35:05,927 ] 25 Customer_Churn_Prediction - INFO - Entered Data Ingestion Method
+[ 2026-11-14 11:35:05,953 ] 33 Customer_Churn_Prediction - INFO - Dataset loaded successfully
+[ 2026-11-14 11:35:05,954 ] 43 Customer_Churn_Prediction - INFO - Artifacts folder created
+[ 2026-11-14 11:35:06,010 ] 52 Customer_Churn_Prediction - INFO - Raw dataset saved
+[ 2026-11-14 11:35:06,026 ] 61 Customer_Churn_Prediction - INFO - Train Test Split Completed
+[ 2026-11-14 11:35:06,067 ] 70 Customer_Churn_Prediction - INFO - Training dataset saved
+[ 2026-11-14 11:35:06,079 ] 79 Customer_Churn_Prediction - INFO - Testing dataset saved
+[ 2026-11-14 11:35:06,080 ] 81 Customer_Churn_Prediction - INFO - Data Ingestion Completed Successfully

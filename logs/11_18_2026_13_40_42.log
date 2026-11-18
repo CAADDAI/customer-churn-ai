@@ -1,0 +1,17 @@
+[ 2026-11-18 13:40:45,415 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 13:40:45,421 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 13:40:45,436 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 13:40:45,442 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 13:40:45,490 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 13:40:45,490 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 13:40:45,494 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 13:40:45,496 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 13:40:45,500 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 13:40:46,712 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 13:40:46] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-18 13:40:46,741 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 13:40:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 13:42:53,200 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 13:42:53] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-18 13:42:53,226 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 13:42:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 13:43:35,771 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 13:43:35] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-18 13:43:35,801 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 13:43:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 14:30:05,942 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2026-11-18 14:30:05,942 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading

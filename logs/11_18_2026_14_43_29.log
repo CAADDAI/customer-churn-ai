@@ -1,0 +1,43 @@
+[ 2026-11-18 14:43:32,464 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://97.8.82.163:5006
+[ 2026-11-18 14:43:32,465 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2026-11-18 14:43:32,498 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2026-11-18 14:43:32,731 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 14:43:32,738 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 14:43:32,767 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 14:43:32,772 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 14:43:32,867 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 14:43:32,873 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 14:43:32,925 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 14:43:32,929 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 14:43:33,129 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 14:43:33,134 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 14:43:39,107 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 14:43:39] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-18 14:43:39,137 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 14:43:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 15:26:18,482 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:26:18] "GET / HTTP/1.1" 200 -
+[ 2026-11-18 15:26:18,502 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:26:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 15:26:40,030 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:26:40] "GET /predict-page HTTP/1.1" 200 -
+[ 2026-11-18 15:26:40,047 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:26:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 15:27:13,323 ] 168 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-18 15:27:13,323 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-18 15:27:13,324 ] 33 Customer_Churn_Prediction - INFO - Loading model and preprocessor
+[ 2026-11-18 15:27:14,804 ] 45 Customer_Churn_Prediction - INFO - Transforming input features
+[ 2026-11-18 15:27:14,820 ] 55 Customer_Churn_Prediction - INFO - Generating prediction
+[ 2026-11-18 15:27:14,880 ] 74 Customer_Churn_Prediction - INFO - Prediction: 1.0
+[ 2026-11-18 15:27:14,880 ] 78 Customer_Churn_Prediction - INFO - Confidence: 80.58%
+[ 2026-11-18 15:27:15,003 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:27:15] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-18 15:27:15,018 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:27:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 15:27:27,746 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:27:27] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-18 15:27:27,779 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:27:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 15:30:22,013 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2026-11-18 15:30:22,013 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2026-11-18 15:30:22,013 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2026-11-18 15:30:22,013 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2026-11-18 15:30:22,013 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2026-11-18 15:30:22,544 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2026-11-18 15:31:10,922 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2026-11-18 15:36:26,717 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2026-11-18 15:36:39,993 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2026-11-18 15:46:57,295 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)

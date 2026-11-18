@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Customer Churn Assessment
+    </title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static',
+          filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            📊 Customer Churn AI
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="/">Landing Page</a>
+            </li>
+
+            <li>
+                <a href="/predict-page">Prediction</a>
+            </li>
+
+            <li>
+                <a href="/dashboard">Dashboard</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Main Content -->
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1>
+                Customer Churn Assessment Portal
+            </h1>
+
+            <p>
+                Enter customer information below to assess
+                churn probability and generate retention insights.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <form action="/predict"
+                  method="POST">
+
+                <!-- Credit Score -->
+
+                <div class="form-group">
+
+                    <label>
+                        Credit Score
+                    </label>
+
+                    <input type="number"
+                           name="CreditScore"
+                           min="300"
+                           max="900"
+                           required>
+
+                </div>
+
+                <!-- Country -->
+
+                <div class="form-group">
+
+                    <label>
+                        Country
+                    </label>
+
+                    <select name="Geography"
+                            required>
+
+                        <option value="">
+                            Select Country
+                        </option>
+
+                        <option value="France">
+                            France
+                        </option>
+
+                        <option value="Germany">
+                            Germany
+                        </option>
+
+                        <option value="Spain">
+                            Spain
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!-- Gender -->
+
+                <div class="form-group">
+
+                    <label>
+                        Gender
+                    </label>
+
+                    <select name="Gender"
+                            required>
+
+                        <option value="">
+                            Select Gender
+                        </option>
+
+                        <option value="Male">
+                            Male
+                        </option>
+
+                        <option value="Female">
+                            Female
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!-- Age -->
+
+                <div class="form-group">
+
+                    <label>
+                        Age
+                    </label>
+
+                    <input type="number"
+                           name="Age"
+                           required>
+
+                </div>
+
+                <!-- Tenure -->
+
+                <div class="form-group">
+
+                    <label>
+                        Years with Bank
+                    </label>
+
+                    <input type="number"
+                           name="Tenure"
+                           required>
+
+                </div>
+
+                <!-- Balance -->
+
+                <div class="form-group">
+
+                    <label>
+                        Account Balance (£)
+                    </label>
+
+                    <input type="number"
+                           step="0.01"
+                           name="Balance"
+                           required>
+
+                </div>
+
+                <!-- Number Of Products -->
+
+                <div class="form-group">
+
+                    <label>
+                        Number of Products
+                    </label>
+
+                    <input type="number"
+                           name="NumOfProducts"
+                           required>
+
+                </div>
+
+                <!-- Credit Card -->
+
+                <div class="form-group">
+
+                    <label>
+                        Has Credit Card?
+                    </label>
+
+                    <select name="HasCrCard"
+                            required>
+
+                        <option value="1">
+                            Yes
+                        </option>
+
+                        <option value="0">
+                            No
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!-- Active Member -->
+
+                <div class="form-group">
+
+                    <label>
+                        Active Member?
+                    </label>
+
+                    <select name="IsActiveMember"
+                            required>
+
+                        <option value="1">
+                            Yes
+                        </option>
+
+                        <option value="0">
+                            No
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!-- Salary -->
+
+                <div class="form-group">
+
+                    <label>
+                        Estimated Salary (£)
+                    </label>
+
+                    <input type="number"
+                           step="0.01"
+                           name="EstimatedSalary"
+                           required>
+
+                </div>
+
+                <!-- Submit -->
+
+                <button
+                    class="btn btn-primary"
+                    type="submit">
+
+                    🔍 Predict Churn Risk
+
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- Information Section -->
+
+        <div class="card">
+
+            <h2>
+                About This Assessment
+            </h2>
+
+            <br>
+
+            <p>
+                This system uses a tuned Random Forest
+                machine learning model trained on banking
+                customer data to estimate churn risk.
+            </p>
+
+            <br>
+
+            <ul>
+
+                <li>
+                    ✅ Customer Risk Classification
+                </li>
+
+                <li>
+                    ✅ Churn Probability Assessment
+                </li>
+
+                <li>
+                    ✅ Dashboard Tracking
+                </li>
+
+                <li>
+                    ✅ Prediction History Recording
+                </li>
+
+                <li>
+                    ✅ AI Recommendations 
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+  <div class="footer">
+            <h3>
+                 Developed By:
+                Collins Aboagye Addai
+            </h3>
+            <p>
+                Customer Churn Analytics Platform
+            </p>
+
+        </div>
+
+</html>

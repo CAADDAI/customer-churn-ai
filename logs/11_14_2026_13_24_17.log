@@ -1,0 +1,49 @@
+[ 2026-11-14 13:24:19,422 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 13:24:19,423 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-14 13:24:19,427 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 13:24:19,428 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-14 13:27:20,312 ] 178 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 13:27:20,312 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 13:27:20,312 ] 33 Customer_Churn_Prediction - INFO - Loading Trained Model
+[ 2026-11-14 13:27:20,746 ] 41 Customer_Churn_Prediction - INFO - Loading Preprocessor
+[ 2026-11-14 13:27:20,754 ] 49 Customer_Churn_Prediction - INFO - Transforming User Input
+[ 2026-11-14 13:27:20,830 ] 59 Customer_Churn_Prediction - INFO - Generating Prediction
+[ 2026-11-14 13:27:20,883 ] 78 Customer_Churn_Prediction - INFO - Prediction: 0.0
+[ 2026-11-14 13:27:20,883 ] 82 Customer_Churn_Prediction - INFO - Confidence: 78.79%
+[ 2026-11-14 13:27:20,897 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:27:20] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 13:27:35,870 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:27:35] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:27:36,026 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:27:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 13:29:41,923 ] 178 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 13:29:41,923 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 13:29:41,923 ] 33 Customer_Churn_Prediction - INFO - Loading Trained Model
+[ 2026-11-14 13:29:42,027 ] 41 Customer_Churn_Prediction - INFO - Loading Preprocessor
+[ 2026-11-14 13:29:42,028 ] 49 Customer_Churn_Prediction - INFO - Transforming User Input
+[ 2026-11-14 13:29:42,037 ] 59 Customer_Churn_Prediction - INFO - Generating Prediction
+[ 2026-11-14 13:29:42,095 ] 78 Customer_Churn_Prediction - INFO - Prediction: 1.0
+[ 2026-11-14 13:29:42,095 ] 82 Customer_Churn_Prediction - INFO - Confidence: 67.65%
+[ 2026-11-14 13:29:42,108 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:29:42] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 13:29:59,327 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:29:59] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:29:59,391 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:29:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 13:35:11,516 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:35:11] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:35:11,565 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:35:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 13:35:54,809 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:35:54] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:35:54,882 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:35:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 13:36:01,377 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:01] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:36:01,422 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 13:36:02,550 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:02] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:36:02,602 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 13:36:03,809 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:03] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:36:03,850 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 13:36:28,858 ] 178 Customer_Churn_Prediction - INFO - Input DataFrame Created Successfully
+[ 2026-11-14 13:36:28,858 ] 25 Customer_Churn_Prediction - INFO - Predict Pipeline Initialized
+[ 2026-11-14 13:36:28,858 ] 33 Customer_Churn_Prediction - INFO - Loading Trained Model
+[ 2026-11-14 13:36:28,954 ] 41 Customer_Churn_Prediction - INFO - Loading Preprocessor
+[ 2026-11-14 13:36:28,955 ] 49 Customer_Churn_Prediction - INFO - Transforming User Input
+[ 2026-11-14 13:36:28,964 ] 59 Customer_Churn_Prediction - INFO - Generating Prediction
+[ 2026-11-14 13:36:29,021 ] 78 Customer_Churn_Prediction - INFO - Prediction: 1.0
+[ 2026-11-14 13:36:29,021 ] 82 Customer_Churn_Prediction - INFO - Confidence: 75.83%
+[ 2026-11-14 13:36:29,034 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:29] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-14 13:36:37,927 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:37] "GET / HTTP/1.1" 200 -
+[ 2026-11-14 13:36:37,982 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Nov/2026 13:36:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-14 13:36:41,114 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\ensemble\\_weight_boosting.py', reloading
+[ 2026-11-14 13:36:41,114 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\ensemble\\_weight_boosting.py', reloading

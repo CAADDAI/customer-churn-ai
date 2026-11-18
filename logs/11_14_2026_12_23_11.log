@@ -1,0 +1,20 @@
+[ 2026-11-14 12:23:11,990 ] 25 Customer_Churn_Prediction - INFO - Entered Data Ingestion Method
+[ 2026-11-14 12:23:12,005 ] 33 Customer_Churn_Prediction - INFO - Dataset loaded successfully
+[ 2026-11-14 12:23:12,005 ] 43 Customer_Churn_Prediction - INFO - Artifacts folder created
+[ 2026-11-14 12:23:12,062 ] 52 Customer_Churn_Prediction - INFO - Raw dataset saved
+[ 2026-11-14 12:23:12,068 ] 61 Customer_Churn_Prediction - INFO - Train Test Split Completed
+[ 2026-11-14 12:23:12,110 ] 70 Customer_Churn_Prediction - INFO - Training dataset saved
+[ 2026-11-14 12:23:12,122 ] 79 Customer_Churn_Prediction - INFO - Testing dataset saved
+[ 2026-11-14 12:23:12,130 ] 81 Customer_Churn_Prediction - INFO - Data Ingestion Completed Successfully
+[ 2026-11-14 12:23:12,163 ] 121 Customer_Churn_Prediction - INFO - Train and Test Data Loaded Successfully
+[ 2026-11-14 12:23:12,166 ] 152 Customer_Churn_Prediction - INFO - Applying Preprocessing Object
+[ 2026-11-14 12:23:12,166 ] 82 Customer_Churn_Prediction - INFO - Numerical and Categorical Pipelines Created
+[ 2026-11-14 12:23:12,166 ] 101 Customer_Churn_Prediction - INFO - Preprocessor Object Created Successfully
+[ 2026-11-14 12:23:12,282 ] 22 Customer_Churn_Prediction - INFO - Object saved successfully at artifacts\preprocessor.pkl
+[ 2026-11-14 12:23:12,282 ] 187 Customer_Churn_Prediction - INFO - Preprocessor Saved Successfully
+[ 2026-11-14 12:23:12,282 ] 45 Customer_Churn_Prediction - INFO - Starting Random Forest Hyperparameter Tuning
+[ 2026-11-14 12:23:12,282 ] 88 Customer_Churn_Prediction - INFO - Starting GridSearchCV
+[ 2026-11-14 12:24:51,324 ] 118 Customer_Churn_Prediction - INFO - Best Parameters : {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 300}
+[ 2026-11-14 12:24:51,325 ] 122 Customer_Churn_Prediction - INFO - Best Cross Validation F1 Score : 0.6250
+[ 2026-11-14 12:24:51,564 ] 22 Customer_Churn_Prediction - INFO - Object saved successfully at artifacts\tuned_model.pkl
+[ 2026-11-14 12:24:51,564 ] 167 Customer_Churn_Prediction - INFO - Tuned Model Saved Successfully

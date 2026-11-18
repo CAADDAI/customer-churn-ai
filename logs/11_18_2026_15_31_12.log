@@ -1,0 +1,19 @@
+[ 2026-11-18 15:31:15,942 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 15:31:15,947 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 15:31:15,949 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 15:31:15,954 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 15:31:15,955 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 15:31:15,959 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 15:31:15,975 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 15:31:15,982 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 15:31:15,989 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 15:31:15,992 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-18 15:31:15,995 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 15:31:15,997 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-18 15:31:17,156 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:31:17] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-18 15:31:17,185 ] 97 werkzeug - INFO - 127.0.0.1 - - [18/Nov/2026 15:31:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-18 15:36:26,230 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-18 15:36:26,230 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-18 15:36:26,231 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-18 15:36:26,231 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
+[ 2026-11-18 15:36:26,232 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\Customer_Churn_AI\\app.py', reloading
