@@ -1,0 +1,9 @@
+[ 2026-11-10 22:12:13,300 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-10 22:12:13,303 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-10 22:12:13,305 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-10 22:12:13,305 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-10 22:12:13,308 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-10 22:12:13,310 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-10 22:13:09,585 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\app.py', reloading
+[ 2026-11-10 22:13:09,585 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\lap\\app.py', reloading
+[ 2026-11-10 22:13:09,585 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\app.py', reloading

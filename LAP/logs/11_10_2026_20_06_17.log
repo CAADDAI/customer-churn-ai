@@ -1,0 +1,21 @@
+[ 2026-11-10 20:06:19,639 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-10 20:06:19,644 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-10 20:06:22,728 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:22] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:06:22,833 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:06:23,815 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:23] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:06:23,834 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:06:24,391 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:24] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:06:24,409 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:06:24,711 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:24] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:06:24,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:06:24,912 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:24] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:06:24,930 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:06:25,135 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:25] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:06:25,153 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:06:25,319 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:25] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:06:25,341 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:06:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:07:03,488 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:07:03] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:07:03,508 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:07:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:07:29,632 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:07:29] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 20:07:29,656 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 20:07:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 20:09:56,055 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\app.py', reloading

@@ -1,0 +1,45 @@
+[ 2026-11-11 17:29:47,321 ] 267 MLProject - INFO - Starting Loan Approval Flask Application
+[ 2026-11-11 17:29:47,339 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-11 17:29:47,345 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-11 17:29:47,398 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:47] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-11 17:29:47,482 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:29:47,688 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:47] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 17:29:47,709 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:29:49,086 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:49] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 17:29:49,103 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:29:50,362 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:50] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 17:29:50,383 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:29:52,762 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:52] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-11 17:29:52,784 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:29:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:30:05,308 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:30:05] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 17:30:05,328 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:30:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:30:07,285 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:30:07] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 17:30:07,301 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:30:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:30:34,592 ] 80 MLProject - INFO - Receiving user inputs
+[ 2026-11-11 17:30:34,595 ] 104 MLProject - INFO - Creating DataFrame
+[ 2026-11-11 17:30:34,601 ] 170 MLProject - INFO - Input DataFrame Created Successfully
+[ 2026-11-11 17:30:34,607 ] 174 MLProject - INFO - 
+    Age  Experience  ...  Online  CreditCard
+0  33.0         2.0  ...     1.0         1.0
+
+[1 rows x 11 columns]
+[ 2026-11-11 17:30:34,607 ] 108 MLProject - INFO - Running prediction pipeline
+[ 2026-11-11 17:30:34,608 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-11 17:30:34,608 ] 31 MLProject - INFO - Loading model...
+[ 2026-11-11 17:30:34,950 ] 34 MLProject - INFO - Loading preprocessor...
+[ 2026-11-11 17:30:34,957 ] 39 MLProject - INFO - Transforming input data...
+[ 2026-11-11 17:30:35,029 ] 44 MLProject - INFO - Making prediction...
+[ 2026-11-11 17:30:35,030 ] 49 MLProject - INFO - Generating probability score...
+[ 2026-11-11 17:30:35,030 ] 62 MLProject - INFO - Prediction: 1.0
+[ 2026-11-11 17:30:35,031 ] 66 MLProject - INFO - Confidence Score: 99.66%
+[ 2026-11-11 17:30:35,031 ] 70 MLProject - INFO - Probabilities: [0.00341569 0.99658431]
+[ 2026-11-11 17:30:35,031 ] 218 MLProject - INFO - Prediction Result: ✅ Loan Approved
+[ 2026-11-11 17:30:35,031 ] 222 MLProject - INFO - Confidence Score: 99.66%
+[ 2026-11-11 17:30:35,031 ] 226 MLProject - INFO - Total Predictions: 1
+[ 2026-11-11 17:30:35,031 ] 230 MLProject - INFO - Approved Loans: 1
+[ 2026-11-11 17:30:35,031 ] 234 MLProject - INFO - Rejected Loans: 0
+[ 2026-11-11 17:30:35,032 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:30:35] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-11 17:30:35,049 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:30:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:30:40,837 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:30:40] "GET /dashboard HTTP/1.1" 200 -
+[ 2026-11-11 17:30:40,857 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 17:30:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 17:32:09,953 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\app.py', reloading

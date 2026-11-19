@@ -1,0 +1,12 @@
+[ 2026-11-10 08:17:31,398 ] 26 MLProject - INFO - Entered Data Ingestion Method
+[ 2026-11-10 08:17:32,455 ] 34 MLProject - INFO - Dataset loaded successfully
+[ 2026-11-10 08:17:32,455 ] 44 MLProject - INFO - Artifacts folder created
+[ 2026-11-10 08:17:32,476 ] 53 MLProject - INFO - Raw dataset saved
+[ 2026-11-10 08:17:32,480 ] 62 MLProject - INFO - Train Test Split Completed
+[ 2026-11-10 08:17:32,495 ] 71 MLProject - INFO - Training dataset saved
+[ 2026-11-10 08:17:32,500 ] 80 MLProject - INFO - Testing dataset saved
+[ 2026-11-10 08:17:32,500 ] 82 MLProject - INFO - Data Ingestion Completed Successfully
+[ 2026-11-10 08:17:32,538 ] 91 MLProject - INFO - Train and Test Data Read Successfully
+[ 2026-11-10 08:17:32,551 ] 61 MLProject - INFO - Numerical Pipeline Completed
+[ 2026-11-10 08:17:33,057 ] 19 MLProject - INFO - Object saved successfully at artifacts\preprocessor.pkl
+[ 2026-11-10 08:17:33,057 ] 152 MLProject - INFO - Preprocessor Saved Successfully

@@ -1,0 +1,27 @@
+[ 2026-11-10 19:26:21,787 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-10 19:26:21,792 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-10 19:28:06,819 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-10 19:28:06,826 ] 133 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-10 19:28:06,826 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-10 19:28:06,826 ] 31 MLProject - INFO - Loading trained model
+[ 2026-11-10 19:28:07,178 ] 37 MLProject - INFO - Loading preprocessor
+[ 2026-11-10 19:28:07,185 ] 43 MLProject - INFO - Transforming input features
+[ 2026-11-10 19:28:07,274 ] 49 MLProject - INFO - Generating prediction
+[ 2026-11-10 19:28:07,276 ] 55 MLProject - INFO - Prediction generated successfully: [0.]
+[ 2026-11-10 19:28:07,286 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 19:28:07] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-10 19:28:07,415 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 19:28:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 19:40:20,207 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 19:40:20] "GET / HTTP/1.1" 200 -
+[ 2026-11-10 19:40:20,234 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 19:40:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 19:41:02,491 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 19:41:02] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-10 19:41:02,507 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 19:41:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 19:42:15,883 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
+[ 2026-11-10 19:42:15,885 ] 133 MLProject - INFO - Prediction DataFrame created successfully
+[ 2026-11-10 19:42:15,885 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-10 19:42:15,885 ] 31 MLProject - INFO - Loading trained model
+[ 2026-11-10 19:42:15,891 ] 37 MLProject - INFO - Loading preprocessor
+[ 2026-11-10 19:42:15,892 ] 43 MLProject - INFO - Transforming input features
+[ 2026-11-10 19:42:15,898 ] 49 MLProject - INFO - Generating prediction
+[ 2026-11-10 19:42:15,899 ] 55 MLProject - INFO - Prediction generated successfully: [1.]
+[ 2026-11-10 19:42:15,899 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 19:42:15] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-10 19:42:15,914 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2026 19:42:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-10 19:48:51,032 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\src\\exception.py', reloading

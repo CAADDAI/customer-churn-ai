@@ -1,0 +1,18 @@
+[ 2026-11-10 09:32:43,778 ] 26 MLProject - INFO - Entered Data Ingestion Method
+[ 2026-11-10 09:32:44,697 ] 34 MLProject - INFO - Dataset loaded successfully
+[ 2026-11-10 09:32:44,698 ] 44 MLProject - INFO - Artifacts folder created
+[ 2026-11-10 09:32:44,718 ] 53 MLProject - INFO - Raw dataset saved
+[ 2026-11-10 09:32:44,722 ] 62 MLProject - INFO - Train Test Split Completed
+[ 2026-11-10 09:32:44,736 ] 71 MLProject - INFO - Training dataset saved
+[ 2026-11-10 09:32:44,741 ] 80 MLProject - INFO - Testing dataset saved
+[ 2026-11-10 09:32:44,741 ] 82 MLProject - INFO - Data Ingestion Completed Successfully
+[ 2026-11-10 09:32:44,784 ] 91 MLProject - INFO - Train and Test Data Read Successfully
+[ 2026-11-10 09:32:44,787 ] 61 MLProject - INFO - Numerical Pipeline Completed
+[ 2026-11-10 09:32:44,875 ] 22 MLProject - INFO - Object saved successfully at artifacts\preprocessor.pkl
+[ 2026-11-10 09:32:44,875 ] 152 MLProject - INFO - Preprocessor Saved Successfully
+[ 2026-11-10 09:32:44,875 ] 35 MLProject - INFO - Starting Hyperparameter Tuning
+[ 2026-11-10 09:32:44,875 ] 55 MLProject - INFO - Grid Search Started
+[ 2026-11-10 09:33:12,586 ] 85 MLProject - INFO - Best Parameters : {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+[ 2026-11-10 09:33:12,586 ] 89 MLProject - INFO - Best CV Score : 0.9858
+[ 2026-11-10 09:33:12,590 ] 22 MLProject - INFO - Object saved successfully at artifacts\tuned_model.pkl
+[ 2026-11-10 09:33:12,590 ] 98 MLProject - INFO - Tuned Model Saved Successfully

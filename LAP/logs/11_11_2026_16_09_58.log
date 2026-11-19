@@ -1,0 +1,19 @@
+[ 2026-11-11 16:10:09,846 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-11 16:10:09,850 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-11 16:12:44,380 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:12:44] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:12:44,512 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:12:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 16:18:05,725 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:18:05] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:18:05,743 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:18:05] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:18:12,013 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:18:12] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 16:18:12,025 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:18:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 16:19:05,261 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:19:05] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:19:05,280 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:19:05] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:19:10,389 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:19:10] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 16:19:10,401 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:19:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:19:55,220 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:19:55] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:19:55,239 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:19:55] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:20:06,678 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:20:06] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 16:20:06,692 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:20:06] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:20:46,893 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:20:46] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 16:20:46,912 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 16:20:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 16:25:27,096 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\app.py', reloading

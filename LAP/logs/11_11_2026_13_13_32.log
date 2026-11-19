@@ -1,0 +1,84 @@
+[ 2026-11-11 13:13:36,145 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-11 13:13:36,145 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-11 13:13:36,153 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-11 13:14:09,117 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:14:09] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:16:40,001 ] 170 MLProject - INFO - Input DataFrame Created Successfully
+[ 2026-11-11 13:16:40,014 ] 174 MLProject - INFO - 
+    Age  Experience  ...  Online  CreditCard
+0  20.0         1.0  ...     1.0         1.0
+
+[1 rows x 11 columns]
+[ 2026-11-11 13:16:40,015 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-11 13:16:40,015 ] 31 MLProject - INFO - Loading model...
+[ 2026-11-11 13:16:40,858 ] 34 MLProject - INFO - Loading preprocessor...
+[ 2026-11-11 13:16:40,869 ] 39 MLProject - INFO - Transforming input data...
+[ 2026-11-11 13:16:41,164 ] 44 MLProject - INFO - Making prediction...
+[ 2026-11-11 13:16:41,167 ] 49 MLProject - INFO - Generating probability score...
+[ 2026-11-11 13:16:41,169 ] 62 MLProject - INFO - Prediction: 0.0
+[ 2026-11-11 13:16:41,169 ] 66 MLProject - INFO - Confidence Score: 99.67%
+[ 2026-11-11 13:16:41,169 ] 70 MLProject - INFO - Probabilities: [0.99669555 0.00330445]
+[ 2026-11-11 13:16:41,170 ] 128 MLProject - INFO - Prediction: ❌ Loan Rejected
+[ 2026-11-11 13:16:41,170 ] 132 MLProject - INFO - Confidence Score: 99.67%
+[ 2026-11-11 13:16:41,182 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:16:41] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:16:41,201 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:16:41] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:16:49,909 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:16:49] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 13:16:50,047 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:16:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 13:16:53,991 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:16:53] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:16:54,003 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:16:54] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:26:18,043 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:26:18] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:26:18,059 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:26:18] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:26:19,127 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:26:19] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:26:19,148 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:26:19] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:26:22,192 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:26:22] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 13:26:22,218 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:26:22] "GET /static/style.css HTTP/1.1" 200 -
+[ 2026-11-11 13:26:26,080 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:26:26] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:26:26,097 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:26:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:27:47,732 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:27:47] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 13:27:47,759 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:27:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2026-11-11 13:28:23,033 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:28:23] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:28:23,048 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:28:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:28:52,851 ] 170 MLProject - INFO - Input DataFrame Created Successfully
+[ 2026-11-11 13:28:52,854 ] 174 MLProject - INFO - 
+    Age  Experience  ...  Online  CreditCard
+0  20.0         1.0  ...     1.0         1.0
+
+[1 rows x 11 columns]
+[ 2026-11-11 13:28:52,855 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-11 13:28:52,855 ] 31 MLProject - INFO - Loading model...
+[ 2026-11-11 13:28:52,860 ] 34 MLProject - INFO - Loading preprocessor...
+[ 2026-11-11 13:28:52,863 ] 39 MLProject - INFO - Transforming input data...
+[ 2026-11-11 13:28:52,871 ] 44 MLProject - INFO - Making prediction...
+[ 2026-11-11 13:28:52,872 ] 49 MLProject - INFO - Generating probability score...
+[ 2026-11-11 13:28:52,873 ] 62 MLProject - INFO - Prediction: 1.0
+[ 2026-11-11 13:28:52,873 ] 66 MLProject - INFO - Confidence Score: 99.62%
+[ 2026-11-11 13:28:52,874 ] 70 MLProject - INFO - Probabilities: [0.00379245 0.99620755]
+[ 2026-11-11 13:28:52,874 ] 128 MLProject - INFO - Prediction: ✅ Loan Approved
+[ 2026-11-11 13:28:52,874 ] 132 MLProject - INFO - Confidence Score: 99.62%
+[ 2026-11-11 13:28:52,875 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:28:52] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:28:52,891 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:28:52] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:30:57,652 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:30:57] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:34:04,327 ] 170 MLProject - INFO - Input DataFrame Created Successfully
+[ 2026-11-11 13:34:04,331 ] 174 MLProject - INFO - 
+    Age  Experience  ...  Online  CreditCard
+0  20.0         1.0  ...     1.0         1.0
+
+[1 rows x 11 columns]
+[ 2026-11-11 13:34:04,331 ] 25 MLProject - INFO - Predict Pipeline Initialized
+[ 2026-11-11 13:34:04,331 ] 31 MLProject - INFO - Loading model...
+[ 2026-11-11 13:34:04,337 ] 34 MLProject - INFO - Loading preprocessor...
+[ 2026-11-11 13:34:04,338 ] 39 MLProject - INFO - Transforming input data...
+[ 2026-11-11 13:34:04,345 ] 44 MLProject - INFO - Making prediction...
+[ 2026-11-11 13:34:04,346 ] 49 MLProject - INFO - Generating probability score...
+[ 2026-11-11 13:34:04,347 ] 62 MLProject - INFO - Prediction: 1.0
+[ 2026-11-11 13:34:04,347 ] 66 MLProject - INFO - Confidence Score: 99.62%
+[ 2026-11-11 13:34:04,347 ] 70 MLProject - INFO - Probabilities: [0.00379245 0.99620755]
+[ 2026-11-11 13:34:04,347 ] 128 MLProject - INFO - Prediction: ✅ Loan Approved
+[ 2026-11-11 13:34:04,347 ] 132 MLProject - INFO - Confidence Score: 99.62%
+[ 2026-11-11 13:34:04,348 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:34:04] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:34:04,363 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:34:04] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 13:34:08,710 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:34:08] "GET / HTTP/1.1" 200 -
+[ 2026-11-11 13:34:08,736 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:34:08] "GET /static/style.css HTTP/1.1" 200 -
+[ 2026-11-11 13:34:14,934 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:34:14] "GET /predict HTTP/1.1" 200 -
+[ 2026-11-11 13:34:14,953 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Nov/2026 13:34:14] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2026-11-11 14:13:45,323 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\src\\exception.py', reloading
+[ 2026-11-11 14:13:45,323 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\src\\exception.py', reloading
