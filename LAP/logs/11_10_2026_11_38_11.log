@@ -1,8 +1,0 @@
-[ 2026-11-10 11:38:13,452 ] 104 MLProject - INFO - Creating prediction DataFrame from user input
-[ 2026-11-10 11:38:13,458 ] 133 MLProject - INFO - Prediction DataFrame created successfully
-[ 2026-11-10 11:38:13,472 ] 25 MLProject - INFO - Predict Pipeline Initialized
-[ 2026-11-10 11:38:13,473 ] 31 MLProject - INFO - Loading trained model
-[ 2026-11-10 11:38:13,766 ] 37 MLProject - INFO - Loading preprocessor
-[ 2026-11-10 11:38:13,794 ] 43 MLProject - INFO - Transforming input features
-[ 2026-11-10 11:38:13,869 ] 49 MLProject - INFO - Generating prediction
-[ 2026-11-10 11:38:13,871 ] 55 MLProject - INFO - Prediction generated successfully: [1.]

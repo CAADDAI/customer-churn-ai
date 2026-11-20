@@ -1,3 +1,0 @@
-[ 2026-11-10 14:55:17,187 ] 97 werkzeug - WARNING -  * Debugger is active!
-[ 2026-11-10 14:55:17,194 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
-[ 2026-11-10 18:48:32,412 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\src\\components\\data_ingestion.py', reloading

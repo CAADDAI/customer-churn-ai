@@ -1,3 +1,0 @@
-[ 2026-11-09 21:29:50,077 ] 36 MLProject - INFO - Testing Custom Exception
-[ 2026-11-09 21:29:50,077 ] 42 MLProject - ERROR - Divide by Zero Error
-[ 2026-11-09 21:29:50,077 ] 46 MLProject - ERROR - Error occurred in Python script name [C:\PROJECT\ML\mlproject\lap\src\exception.py] line number [38] error message [division by zero]

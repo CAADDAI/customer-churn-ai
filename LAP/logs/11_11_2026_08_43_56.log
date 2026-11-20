@@ -1,3 +1,0 @@
-[ 2026-11-11 08:43:58,894 ] 97 werkzeug - WARNING -  * Debugger is active!
-[ 2026-11-11 08:43:58,899 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
-[ 2026-11-11 08:47:58,323 ] 97 werkzeug - INFO -  * Detected change in 'C:\\PROJECT\\ML\\LAP\\app.py', reloading
